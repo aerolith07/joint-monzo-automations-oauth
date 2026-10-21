@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Joint Monzo Automations is a private, personal finance automation used by its owner.">
+  <title>Joint Monzo Automations</title>
+  <style>
+    :root { color-scheme: light dark; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { margin: 0; background: #0f172a; color: #e2e8f0; }
+    main { width: min(720px, calc(100% - 40px)); margin: 0 auto; padding: 80px 0; }
+    .eyebrow { color: #67e8f9; font-size: .82rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+    h1 { margin: 14px 0 18px; color: #f8fafc; font-size: clamp(2.5rem, 8vw, 5rem); line-height: .95; letter-spacing: -.05em; }
+    .lead { max-width: 620px; color: #cbd5e1; font-size: 1.22rem; line-height: 1.65; }
+    section { margin-top: 48px; padding: 30px; border: 1px solid #334155; border-radius: 18px; background: #111c31; }
+    h2 { margin-top: 0; color: #f8fafc; }
+    li, p { line-height: 1.7; }
+    a { color: #67e8f9; }
+    footer { margin-top: 36px; color: #94a3b8; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">Personal-use automation</div>
+    <h1>Joint Monzo Automations</h1>
+    <p class="lead">A private tool used by its owner to reconcile a joint Monzo account, keep transaction records up to date, and add useful item descriptions to Amazon transactions.</p>
+
+    <section>
+      <h2>Why it accesses Gmail</h2>
+      <p>The tool requests read-only Gmail access so it can locate genuine Amazon order and refund emails that correspond to the owner's Monzo transactions. It uses those matches to add an item description and, when available, an Amazon product image to the related Monzo transaction.</p>
+      <ul>
+        <li>Access is read-only: the tool cannot send, modify, or delete email.</li>
+        <li>It is not offered to the public and has no advertising or analytics.</li>
+        <li>Google user data is not sold or shared with third parties.</li>
+      </ul>
+    </section>
+
+    <footer>
+      <a href="privacy.html">Privacy policy</a>
+      <span aria-hidden="true"> · </span>
+      <a href="mailto:rabc7465@gmail.com">Support</a>
+    </footer>
+  </main>
+</body>
+</html>
